@@ -225,3 +225,76 @@ main{
 .quote-designation{
     opacity: 60%;
 }
+
+/* donate section style */
+.donate{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.donate-today{
+    text-align: center;
+    height: 120px;
+    max-width: 1280px;
+}
+.donate-today h1{
+    margin-bottom: 24px;
+}
+.donate-today p{
+    opacity: 67%;
+}
+.taka-amount{
+    height: 128px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    max-width: 1071px;
+}
+
+.hundred-taka{
+    width: 243px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.taka-text-1{
+    width: 160px;
+}
+.taka-text-2{
+    width: 171px;
+}
+.taka-text-3{
+    width: 163px;
+}
+.taka-text-4{
+    width: 193px;
+}
+.active-hover{
+    background-color: #C6E4D6;
+}
+.inactive-hover{
+    background-color: #C6E4D6;
+}
+.other-amount{
+    max-width: 1032px;
+    height: 64px;
+    text-align: center;
+    border: none;
+}
+.input-placeholder{
+    font-size: 20px;
+    columns: #0E0E0E;
+    opacity: 30%;
+}
+.donate-button{
+    width: 155px;
+    height: 56px;
+    border: none;
+}
