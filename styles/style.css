@@ -1,4 +1,165 @@
-/* Nav styles */
-nav{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fira-sans{
+    font-family: "Fira Sans" , serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body{
+    background-color: #F1F1F3;
+}
+
+.hide{
+    display: none;
+}
+
+.flex{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-btn{
+        font-size: 1.1rem;
+        width: 270px;
+        height: 56px;
+        border-radius: 8px;
+        background-color: #006A50;
+        color: #FFFFFF;
+        font-weight: 600;
+        cursor: pointer;
+}
+
+.green-btn:hover{
+    background-color: red;
+    color: black;
+    font-weight: 700;
+}
+.mini-btn{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.headline-text{
+    height: auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.light-green-bg-color{
+    background-color: #006A50;
+}
+
+.description-text{
+    font-size: 1rem;
+    color: #0E0E0E;
+}
+
+.headline-text-mini{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner{
+    max-height: 560px;
+    gap: 64px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin: 20px 0 80px 0;
+}
+
+.banner-content{
+    max-width: 622px;
+    height: 326px;
+    margin-left: -40.02px;
+}
+
+.banner-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+
+.banner-title{
+    font-size: 56px;
+    margin-bottom: 24px;
+    line-height: normal;
+}
+
+.banner-btn{
+    font-size: 18px;
+    max-width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.banner-btn-hover{
+    background-color: red;
+    color: black;
+    font-weight: 700;
+}
+.banner-image{
+    max-width: 474px;
+    height: 400px;
+}
+
+/* future header section */
+
+.future-header{
+
+}
+.future-header-container{
+    margin-bottom: 32px;
+}
+.future-header-title{
+    margin-bottom: 24px;
+}
+.future-header-description{
+    opacity: 70%;
+}
+
+/* future-pillars-section */
+
+.future-pillars{
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.future-pillar-container{
+    max-width: 410.67px;
+    column-gap: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 24px;
+    background-color: #5490F533;
+    border-radius: 16px;
+}
+
+.future-pillars .bg-green{
+    background-color: #C6E4D6;
+}
+.future-pillars .bg-d-green{
+    background-color: #09A15C;
 }
